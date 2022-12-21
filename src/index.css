@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-wrapper{
+  width: 100% !important;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: right;
+  height: 3.5rem;
+  overflow: hidden;
+  
+}
+
+.signup-wrapper{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.signup-navbar{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.website_name{
+  font-size: 8rem;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+}
+
+.header_text{
+  font-size: 1.8rem !important;
+}
+
+
+@media only screen and (max-width: 600px){
+    .signup-navbar{
+      font-size: 1rem;
+    }
+
+    .header_text{
+      font-size: 1.5rem !important;
+    }
+}

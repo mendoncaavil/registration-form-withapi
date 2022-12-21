@@ -1,0 +1,66 @@
+.images_container {
+    /* width: 50px; */
+    /* display: flex; */
+    height: 100px;
+    max-width: 100px;
+    overflow-x: auto;
+    
+    /* -ms-overflow-style: none; */
+    /* IE and Edge */
+    /* scrollbar-width: none; */
+
+}
+
+.images_img {
+    height: 80px;
+    object-fit: contain;
+    /* gap: 5px; */
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* .images_container::-webkit-scrollbar {
+    display: none;
+} */
+
+.delete_icon{
+    color: rgba(255, 0, 0, 0.767);
+    cursor: pointer;
+}
+
+/* .table_container{
+    display: flex;
+    justify-content: space-between;
+
+} */
+
+tbody{
+    background-color: rgb(235, 235, 235);
+}
+
+th{
+    font-size: 1.1rem;
+}
+
+td{
+    align-items: center; 
+     text-align: center;
+}
+
+/* .item_description{
+    width: 100%;
+} */
+.item_description{
+    text-align: left;
+    width: 40%;
+}
+
+.item_title{
+    text-align: left;
+    width: 10%;
+}
+
+.item-price{
+    text-align: center;
+    width: 10%;
+}
